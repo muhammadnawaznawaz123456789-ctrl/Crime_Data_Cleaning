@@ -11,3 +11,8 @@ __pycache__/
 
 # Environment variables
 .env
+
+# Keep dataset files private
+data/raw/*.csv
+processed/*.csv
+report/*.csv
